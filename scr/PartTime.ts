@@ -1,11 +1,10 @@
-export default class PartTime {
-    readonly name: string
+export default class PartTime extends Worker {
     readonly rate: number
-
     hours = 0
 
     constructor(name: string, rate: number){
-        this.name = name
+
+        super(name)
         this.rate = rate
     }
 
