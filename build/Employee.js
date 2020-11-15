@@ -6,6 +6,9 @@ var Employee = /** @class */ (function () {
         this.name = name;
         this.salary = salary;
     }
+    Employee.prototype.getExpenses = function () {
+        return this.salary;
+    };
     return Employee;
 }());
 exports.Employee = Employee;

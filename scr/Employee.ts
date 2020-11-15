@@ -6,4 +6,8 @@ export class Employee {
         this.name = name
         this.salary = salary
     }
+
+    getExpenses(): number{
+        return this.salary
+    }
 }
